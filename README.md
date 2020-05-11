@@ -25,7 +25,6 @@ Edit `tsconfig.json`.
   "extends": "@p-chan/tsconfig",
   "compilerOptions": {
     "outDir": "./dist",
-    "rootDir": "./src",
     "baseUrl": "./"
   }
 }
