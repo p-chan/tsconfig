@@ -24,8 +24,9 @@ Edit `tsconfig.json`.
 {
   "extends": "@p-chan/tsconfig",
   "compilerOptions": {
-    "target": "es5",
-    "module": "commonjs"
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "baseUrl": "./"
   }
 }
 ```
